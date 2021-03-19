@@ -1,5 +1,5 @@
 import uuid
-from Models.post import Post
+from models.post import Post
 import datetime
 from database import Database
 
