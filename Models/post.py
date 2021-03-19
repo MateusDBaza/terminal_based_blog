@@ -9,6 +9,7 @@ class Post(object):
         self.title = title
         self.content = content
         self.author = author
+        self.date = created_date
         self.id = uuid.uuid4().hex if id is None else id
         # uuid module,uuid4 number 4 is random
         # .hex is to give us 32 character hexadecimal string
